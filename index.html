@@ -5,40 +5,60 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css"> <!-- Link to your external CSS file -->
 
-<style>
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 90vh;
-  }
+  <!-- <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
 
-  .center {
-    display: block;
-    height: 50%;
-  }
+    header a,
+    header b {
+      margin-right: 10px;
+      text-decoration: none;
+      font-weight: 700;
+    }
 
+    /* Adjusted styles for .container to center content */
+    .main-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 90vh;
+    }
 
+    .content {
+      text-align: center;
+    }
 
+    img.center {
+      max-height: 50vh; /* 50% of the viewport height */
+      width: auto; /* keep image aspect ratio */
+    }
 
-</style>
+    .title {
+      margin-top: 20px;
+      font-size: 2em;
+      font-weight: bold;
+    }
+  </style> -->
 </head>
 <body>
 
   <header>
-    <b href="index.html">HOME</b>
+    <b href="index.html">HOME</b> <!-- <b> tags don't have href attribute. It should be <a> if it's a link -->
     <a href="mission.html">MISSION</a>
     <a href="innovations.html">INNOVATIONS</a>
     <a href="shop.html">SHOP</a>
-</header>
+  </header>
 
-<div class="container">
-  <img src="logo.svg" alt="Blow Holds Logo" class="center">
-  <div class="title">
-    WE BLOW HOLDS
+  <div class="main-content">
+    <div class="content">
+      <img src="logo.svg" alt="Blow Holds Logo" class="center">
+      <div class="title">
+        WE BLOW HOLDS
+      </div>
+    </div>
   </div>
-</div>
 
 </body>
 </html>

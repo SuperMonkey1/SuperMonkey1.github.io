@@ -2,7 +2,8 @@
 <html>
 <head>
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your external CSS file -->
 
 <style>
   .container {
@@ -10,49 +11,34 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 90vh; /* Makes sure the container takes the full viewport height */
+    height: 90vh;
   }
 
   .center {
     display: block;
-    height: 50%
+    height: 50%;
   }
 
-  .title {
-    text-align: center;
-    font-size: 24px; /* Adjust the font size as necessary */
-    font-weight: bold; /* Makes the text bold */
-    font-family: 'Roboto', sans-serif; /* Applying the Roboto font */
-    margin-top: 0; /* Remove or reduce the top margin */
-    margin-bottom: 0; /* Remove or reduce the top margin */
-  }
 
-  .subtitle {
-    text-align: center;
-    font-size: 16px; /* Adjust the font size as necessary */
-    font-family: 'Roboto', sans-serif; /* Applying the Roboto font */
-    margin-top: 10px; /* Adjust the top margin as necessary */
-  }
+
 
 </style>
 </head>
 <body>
 
-<div class="container">
-  <!-- Using the img tag to link to an external SVG file -->
-  <img src="logo.svg" alt="Blow Holds Logo" class="center">
+  <header>
+    <b href="index.html">HOME</b>
+    <a href="mission.html">MISSION</a>
+    <a href="innovations.html">INNOVATIONS</a>
+    <a href="shop.html">SHOP</a>
+</header>
 
-  <!-- Title below the image -->
+<div class="container">
+  <img src="logo.svg" alt="Blow Holds Logo" class="center">
   <div class="title">
     WE BLOW HOLDS
   </div>
-
-  <div class="subtitle">
-    Soon available
-  </div>
 </div>
-
-
 
 </body>
 </html>
